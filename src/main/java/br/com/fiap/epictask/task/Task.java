@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+//import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
@@ -20,7 +21,7 @@ public class Task {
     @NotBlank
     String title;
 
-    @Size(min = 10)
+    @Size(min = 10, message = "a descrição deve ter pelo menos 10 caracteres")
     String description;
 
     @Min(1) @Max(100)
