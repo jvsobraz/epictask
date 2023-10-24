@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=Tipo&message=Projeto&color=8257E5&labelColor=000000" alt="Project" />
+ <img src="https://img.shields.io/static/v1?label=Type&message=Project&color=red&labelColor=000000" alt="Project" />
 </p>
 
 API para gerenciar tarefas (CRUD) para o o gerenciamento de tarefas.
@@ -15,7 +15,7 @@ API para gerenciar tarefas (CRUD) para o o gerenciamento de tarefas.
 - [Spring Thymeleaf](https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-thymeleaf.html)
 - [Spring Validation](https://spring.io/guides/gs/validating-form-input/)
 - [Spring Web](https://spring.io/guides/gs/spring-boot/)
-- [Spring Oauth2 Client] (https://spring.io/guides/tutorials/spring-boot-oauth2/)
+- [Spring Oauth2 Client](https://spring.io/guides/tutorials/spring-boot-oauth2/)
 - [Spring DevTools](https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/html/using-boot-devtools.html)
 - [Spring H2](https://www.baeldung.com/spring-boot-h2-database)
 - [Spring Lombok](https://www.baeldung.com/intro-to-project-lombok)
@@ -28,7 +28,6 @@ API para gerenciar tarefas (CRUD) para o o gerenciamento de tarefas.
 - Consultas com Spring Data JPA
 - Injeção de Dependências
 - Tratamento de respostas de erro
-- Geração automática do Swagger com a OpenAPI 3
 
 ## Como Executar
 
@@ -39,7 +38,7 @@ $ ./mvnw clean package
 ```
 - Executar a aplicação:
 ```
-$ java -jar target/hotellist-0.0.1-SNAPSHOT.jar
+$ java -jar target/epictasklist-0.0.1-SNAPSHOT.jar
 ```
 
 A API poderá ser acessada em [localhost:8080](http://localhost:8080).
